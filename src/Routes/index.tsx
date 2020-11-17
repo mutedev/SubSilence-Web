@@ -1,11 +1,16 @@
 import React, { Fragment } from 'react'
 import banner from '../assets/banner.png'
-import Home from '../pages/Home'
-import Error404 from '../pages/Error404'
-import DiscordRules from '../pages/Discord/Rules'
 import type Routes from './interface'
 
-const routes: Routes[] = [
+// Import other routes
+import discord from './discord'
+
+// Import Pages
+import Home from '../pages/Home'
+import About from '../pages/About'
+import Error404 from '../pages/Error404'
+
+let routes: Routes[] = [
   {
     path: '/',
     component: Home,
@@ -20,27 +25,32 @@ const routes: Routes[] = [
     },
   },
   {
-    path: '/discord/rules',
-    component: DiscordRules,
+    path: '/about',
+    component: About,
     header: {
-      tab: 'Discord Rules',
+      tab: 'About',
       title: (
         <Fragment>
-          Discord <code>Rules</code>
+          About <code>SubSilence</code>
         </Fragment>
       ),
       banner: banner,
     },
   },
-  {
-    path: '*',
-    component: Error404,
-    header: {
-      tab: '404',
-      title: <code>404</code>,
-      banner: banner,
-    },
-  },
 ]
+
+routes = [...routes, ...discord]
+
+routes.push({
+  path: '*',
+  component: Error404,
+  header: {
+    tab: '404',
+    title: <code>404</code>,
+    banner: banner,
+  },
+},)
+
+console.log(routes)
 
 export default routes
