@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import './style.scss'
 
 export default () => {
   return (
