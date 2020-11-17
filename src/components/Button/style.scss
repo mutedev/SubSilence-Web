@@ -1,0 +1,59 @@
+.Button {
+  $primary: #e44dec;
+  $secondary: #4d81ec;
+  $lighten: 10;
+
+  margin-bottom: 20px;
+  appearance: button;
+  display: block;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: linear-gradient(270deg, $primary, $secondary);
+  background-size: 400% 400%;
+  animation: ButtonAnimation 6s ease infinite;
+  padding: 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  color: white;
+
+  &:hover {
+    background: linear-gradient(
+      270deg,
+      lighten($primary, $lighten),
+      lighten($secondary, $lighten)
+    );
+    background-size: 400% 400%;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &-Center {
+    @extend .Button;
+    margin: 0 auto;
+  }
+
+  @keyframes ButtonAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+.Button-Link {
+  display: block;
+  width: fit-content;
+
+  &-Center {
+    @extend .Button-Link;
+    margin: 0 auto;
+  }
+}
