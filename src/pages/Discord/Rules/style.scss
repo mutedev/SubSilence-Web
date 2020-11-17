@@ -1,0 +1,17 @@
+.Rule {
+  display: block;
+  margin-bottom: 20px;
+  display: flex;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &-Index {
+    margin-right: 20px;
+  }
+
+  &-Text {
+    flex: 1;
+  }
+}
