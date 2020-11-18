@@ -1,0 +1,10 @@
+.Card-Parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+
+  &:last-child {
+    margin-bottom: -25px;
+  }
+}
