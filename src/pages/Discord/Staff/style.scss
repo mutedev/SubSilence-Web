@@ -1,16 +1,10 @@
-.Rule {
-  margin-bottom: 20px;
+.Card-Parent {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
 
   &:last-child {
-    margin-bottom: 0;
-  }
-
-  &-Index {
-    margin-right: 20px;
-  }
-
-  &-Text {
-    flex: 1;
+    margin-bottom: -25px;
   }
 }
