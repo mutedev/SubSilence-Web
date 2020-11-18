@@ -1,0 +1,31 @@
+.Partner-Card {
+  background-color: #0002;
+  border: 2px solid #0004;
+  padding: 25px;
+  margin-bottom: 50px;
+  border-radius: 13px;
+
+  &-Img {
+    width: 100%;
+    margin-bottom: 25px;
+
+    img {
+      width: 100%;
+      border-radius: 50%;
+      user-select: none;
+      box-shadow: 0 0 10px #0006;
+    }
+  }
+
+  &-Text {
+    &-Name {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+
+    &-Quote {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+  }
+}
