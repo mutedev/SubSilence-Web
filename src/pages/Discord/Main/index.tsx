@@ -12,13 +12,21 @@ export default () => {
             <td>
               <CenterText>
                 <h1>
-                  Join our <code>Server</code>!
+                  Join our <code>Server</code>
                 </h1>
               </CenterText>
-            </td>
-            <td>
               <Button center to='http://join.subsilence.nl'>
                 Discord invite link
+              </Button>
+            </td>
+            <td>
+              <CenterText>
+                <h1>
+                  And get <code>Verified</code>!
+                </h1>
+              </CenterText>
+              <Button center to='/discord/verify'>
+                Learn more
               </Button>
             </td>
           </tr>
@@ -68,6 +76,7 @@ export default () => {
           </tr>
         </tbody>
       </table>
+      <Button center to="/">Return to Home</Button>
     </Fragment>
   )
 }
