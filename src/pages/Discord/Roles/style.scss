@@ -8,7 +8,8 @@
   }
 
   td.Name {
-    width: 300px;
+    width: max-content;
+    display: inline-block;
   }
 
   &-Section {
@@ -16,6 +17,28 @@
 
     &:last-child {
       margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Role {
+    display: flex;
+    flex-direction: column;
+
+    td, td.Name {
+      width: 100%;
+      text-align: center;
+    }
+
+    td.Name {
+      font-size: 20px;
+      padding-top: 20px;
+      padding-bottom: 5px;
+    }
+
+    &-Table {
+      width: 100%;
     }
   }
 }

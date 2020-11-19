@@ -73,29 +73,29 @@ const roles: RoleCategory[] = [
       {
         name: '🏵️ (real) milkers',
         description: 'This person is a verified female',
-        color: '#',
+        color: '#fff6c0',
       },
       {
         name: '🎋 18+',
         description: 'This person proved to be 18+ years old',
-        color: '#',
+        color: '#2ecc71',
       },
       {
-        name: '📔 Access Pass',
+        name: '💒 Cabin Pass',
         description:
           'This person has access to the private channels of the server',
-        color: '#',
+        color: '#f66175',
       },
       {
         name: '☑️ Verified Member',
         description:
           'This person has been given access to the server but has not yet been verified to be 18+',
-        color: '#',
+        color: '#3498db',
       },
       {
         name: '🔰 Unverified Member',
         description: 'This person has not yet been given access to the server',
-        color: '#',
+        color: '#f1c40f',
       },
     ],
   },
