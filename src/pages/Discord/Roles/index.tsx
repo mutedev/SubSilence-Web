@@ -10,17 +10,25 @@ export default () => {
   return (
     <Fragment>
       {roleCategory.map((category: RoleCategory, index: number) => (
-        <section className="Role-Section" key={index}>
+        <section className='Role-Section' key={index}>
           <CenterText>
-            <h1>{category.title}</h1>
+            <h1>
+              {category.title} <code>Roles</code>
+            </h1>
             <h2>{category.description}</h2>
           </CenterText>
-          {category.roles.map((role: Role, index: number) => (
-            <div className='Role' key={index}>
-              <div className='Role-Index'>{role.name}</div>
-              <div className='Role-Text'>{role.description}</div>
-            </div>
-          ))}
+          <table>
+            <tbody>
+              {category.roles.map((role: Role, index: number) => (
+                <tr className='Role' key={index}>
+                  <td className='Name' style={{ color: role.color }}>
+                    {role.name}
+                  </td>
+                  <td>{role.description}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </section>
       ))}
       <Button center to='/discord'>

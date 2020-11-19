@@ -5,6 +5,7 @@ export default interface RoleCategory {
 }
 
 export interface Role {
-  name: JSX.Element | string
+  name: string
+  color: string
   description: string
 }

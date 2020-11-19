@@ -4,180 +4,119 @@ import type RoleCategory from './interface'
 const roles: RoleCategory[] = [
   // Administration Roles
   {
-    title: (
-      <Fragment>
-        Moderation <code>Roles</code>
-      </Fragment>
-    ),
+    title: 'Moderation',
     description: 'Roles for the staff of the Discord server',
     roles: [
       {
-        name: (
-          <Fragment>
-            <code>(⌐■_■)</code> 🏵️ <code>Administrator</code>
-          </Fragment>
-        ),
+        name: '(⌐■_■) 🏵️ Administrator',
         description: 'For the administrators of the server',
+        color: '#ffc796',
       },
       {
-        name: (
-          <Fragment>
-            <code>(⌐■_■)</code> 🌻 <code>Moderator</code>
-          </Fragment>
-        ),
+        name: '(⌐■_■) 🌻 Moderator',
         description: 'For the moderators of the server',
+        color: '#f0ce70',
       },
     ],
   },
 
   // Display Roles
   {
-    title: (
-      <Fragment>
-        Display <code>Roles</code>
-      </Fragment>
-    ),
+    title: 'Display',
     description: 'Roles for people from special places',
     roles: [
       {
-        name: (
-          <Fragment>
-            <code>(⌐■_■)</code> 💜 <code>App's Haven</code>
-          </Fragment>
-        ),
+        name: "(⌐■_■) 💜 App's Haven",
         description: 'For people who come from the "App\'s Haven" server',
+        color: '#71368a',
       },
       {
-        name: (
-          <Fragment>
-            <code>(⌐■_■)</code> 💗 <code>Sente's Selected</code>
-          </Fragment>
-        ),
+        name: "(⌐■_■) 💗 Sente's Selected",
         description:
           'For people who come from the "Sentebo\'s Fwen Place" server or are friends of people in that server',
+        color: '#f6cbff',
       },
       {
-        name: (
-          <Fragment>
-            <code>(⌐■_■)</code> 🌊 <code>Bakje Woater</code>
-          </Fragment>
-        ),
+        name: '(⌐■_■) 🌊 Bakje Woater',
         description: 'For people who come from the "Bakje Woater" server',
+        color: '#3498db',
       },
       {
-        name: (
-          <Fragment>
-            <code>(⌐■_■)</code> ⚗️ <code>Bot Developer</code>
-          </Fragment>
-        ),
-        description: 'For people who help develop @Charmy#0307',
+        name: '(⌐■_■) ⚗️ Bot Developer',
+        description: 'For people who help develop Charmy#0307',
+        color: '#90ffdc',
       },
       {
-        name: (
-          <Fragment>
-            <code>(⌐■_■)</code> 🎀 <code>Blameless Brats</code>
-          </Fragment>
-        ),
+        name: '(⌐■_■) 🎀 Blameless Brats',
         description: 'For people who are in the SubSilence Clan',
+        color: '#e91e63',
       },
       {
-        name: (
-          <Fragment>
-            <code>(⌐■_■)</code> 🖤 <code>Gang</code>
-          </Fragment>
-        ),
+        name: '(⌐■_■) 🖤 Gang',
         description:
           'For people who come from the "Hentai Harem" server or any server with a close relation to it',
+        color: '#1c1c1c',
       },
       {
-        name: (
-          <Fragment>
-            <code>(⌐■_■)</code> 🌷 <code>Dutch Bastard</code>
-          </Fragment>
-        ),
-        description: 'For native dutch speakers',
+        name: '(⌐■_■) 🌷 Dutch Bastard',
+        description: 'For native Dutch speakers',
+        color: '#a84300',
       },
     ],
   },
 
   // Verification Roles
   {
-    title: (
-      <Fragment>
-        Verification <code>Roles</code>
-      </Fragment>
-    ),
+    title: 'Verification',
     description: 'Roles for verified members',
     roles: [
       {
-        name: (
-          <Fragment>
-            🏵️ <code>(real) milkers</code>
-          </Fragment>
-        ),
+        name: '🏵️ (real) milkers',
         description: 'This person is a verified female',
+        color: '#',
       },
       {
-        name: (
-          <Fragment>
-            🎋 <code>18+</code>
-          </Fragment>
-        ),
+        name: '🎋 18+',
         description: 'This person proved to be 18+ years old',
+        color: '#',
       },
       {
-        name: (
-          <Fragment>
-            📔 <code>Access Pass</code>
-          </Fragment>
-        ),
+        name: '📔 Access Pass',
         description:
           'This person has access to the private channels of the server',
+        color: '#',
       },
       {
-        name: (
-          <Fragment>
-            ☑️ <code>Verified Member</code>
-          </Fragment>
-        ),
+        name: '☑️ Verified Member',
         description:
           'This person has been given access to the server but has not yet been verified to be 18+',
+        color: '#',
       },
       {
-        name: (
-          <Fragment>
-            🔰 <code>Unverified Member</code>
-          </Fragment>
-        ),
+        name: '🔰 Unverified Member',
         description: 'This person has not yet been given access to the server',
+        color: '#',
       },
     ],
   },
 
   // Punishment Roles
   {
-    title: (
-      <Fragment>
-        Punishment <code>Roles</code>
-      </Fragment>
-    ),
+    title: 'Punishment',
     description: 'Roles for members that have been punished',
     roles: [
       {
-        name: <code>muted</code>,
+        name: 'muted',
         description:
           "For people who's permission to send and view messages has been revoked (for a limited time)",
+        color: '#36393e',
       },
     ],
   },
 
   // Custom Roles
   {
-    title: (
-      <Fragment>
-        Custom <code>Roles</code>
-      </Fragment>
-    ),
+    title: 'Custom',
     description: 'Custom roles for people who requested them',
     roles: [],
   },
