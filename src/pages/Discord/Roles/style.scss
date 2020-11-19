@@ -1,0 +1,24 @@
+.Role {
+  margin-bottom: 20px;
+  display: flex;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &-Section {
+    margin-bottom: 50px;
+
+    &:last-child {
+      margin-bottom: 20px;
+    }
+  }
+
+  &-Index {
+    margin-right: 20px;
+  }
+
+  &-Text {
+    flex: 1;
+  }
+}
