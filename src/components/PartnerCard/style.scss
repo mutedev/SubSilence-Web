@@ -1,4 +1,4 @@
-.StaffMember-Card {
+.Partner-Card {
   background-color: #0002;
   border: 2px solid #0004;
   padding: 25px;
@@ -26,16 +26,6 @@
     &-Quote {
       font-size: 15px;
       margin-bottom: 5px;
-    }
-
-    &-Role {
-      font-size: 20px;
-      margin-bottom: 5px;
-    }
-
-    &-Tag {
-      font-size: 10px;
-      color: #fff4;
     }
   }
 }
