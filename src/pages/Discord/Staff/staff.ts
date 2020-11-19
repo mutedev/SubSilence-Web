@@ -1,5 +1,4 @@
-import type Staff from "./interface"
-
+import type Staff from './interface'
 
 const staff: Staff = {
   roles: [

@@ -53,7 +53,7 @@ let routes: Routes[] = [
         </Fragment>
       ),
       banner: banner,
-    }
+    },
   },
 ]
 
@@ -67,7 +67,7 @@ routes.push({
     title: <code>404</code>,
     banner: banner,
   },
-},)
+})
 
 console.log(routes)
 
