@@ -3,7 +3,7 @@ import Button from '../../../components/Button'
 import CenterText from '../../../components/CenterText'
 import NotFoundImage from '../../../assets/404.gif'
 
-import '../style.scss';
+import '../style.scss'
 
 export default () => (
   <CenterText>

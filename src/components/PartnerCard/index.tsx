@@ -16,10 +16,7 @@ export default ({ partner, width }: Props) => {
   return (
     <div className='Partner-Card' style={widthStyle}>
       <div className='Partner-Card-Img'>
-        <img
-          src={img}
-          alt={`${partner.name} their profile picture`}
-        />
+        <img src={img} alt={`${partner.name} their profile picture`} />
       </div>
       <div className='Partner-Card-Text'>
         <div className='Partner-Card-Text-Name'>
