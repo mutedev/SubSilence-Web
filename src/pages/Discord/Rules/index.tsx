@@ -6,14 +6,18 @@ import './style.scss'
 export default () => {
   return (
     <Fragment>
-      {rules.map((rule: string, index: number) => (
-        <div className='Rule'>
-          <div className='Rule-Index'>
-            <code>[ {index + 1} ]</code>
-          </div>
-          <div className='Rule-Text'>{rule}</div>
-        </div>
-      ))}
+      <table>
+        <tbody>
+          {rules.map((rule: string, index: number) => (
+            <tr className='Rule' key={index}>
+              <td className='Index'>
+                <code>[ {index + 1} ]</code>
+              </td>
+              <td>{rule}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
       <Button center to='/discord'>
         Back
       </Button>

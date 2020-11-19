@@ -26,7 +26,8 @@
     display: flex;
     flex-direction: column;
 
-    td, td.Name {
+    td,
+    td.Name {
       width: 100%;
       text-align: center;
     }

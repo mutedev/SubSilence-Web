@@ -3,7 +3,7 @@ import banner from '../assets/banner.png'
 import type Routes from './interface'
 
 // Import pages
-import Discord from '../pages/Discord'
+import Discord from '../pages/Discord/Main'
 import DiscordRules from '../pages/Discord/Rules'
 import DiscordStaff from '../pages/Discord/Staff'
 import DiscordPartners from '../pages/Discord/Partners'
