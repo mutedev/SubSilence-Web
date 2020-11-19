@@ -8,7 +8,10 @@ import discord from './discord'
 // Import Pages
 import Home from '../pages/Home'
 import About from '../pages/About'
-import Error404 from '../pages/Error404'
+
+// Import Error Pages
+import Error404 from '../pages//Error/404'
+import Error403 from '../pages//Error/403'
 
 let routes: Routes[] = [
   {
@@ -36,6 +39,21 @@ let routes: Routes[] = [
       ),
       banner: banner,
     },
+  },
+
+  // From here on it will be errors
+  {
+    path: '/error/403',
+    component: Error403,
+    header: {
+      tab: '403',
+      title: (
+        <Fragment>
+          <code>403</code>
+        </Fragment>
+      ),
+      banner: banner,
+    }
   },
 ]
 
