@@ -63,19 +63,19 @@ const routes: Routes[] = [
       banner: banner,
     },
   },
-    {
-        path: '/discord/roles',
-        component: DiscordRoles,
-        header: {
-          tab: 'Discord Roles',
-          title: (
-            <Fragment>
-              Discord <code>Roles</code>
-            </Fragment>
-          ),
-          banner: banner,
-        },
+  {
+    path: '/discord/roles',
+    component: DiscordRoles,
+    header: {
+      tab: 'Discord Roles',
+      title: (
+        <Fragment>
+          Discord <code>Roles</code>
+        </Fragment>
+      ),
+      banner: banner,
     },
+  },
 ]
 
 export default routes
