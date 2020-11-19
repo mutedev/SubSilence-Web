@@ -4,9 +4,10 @@
   "license": "MIT",
   "homepage": "./",
   "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build",
-    "serve": "serve -s -S ./build",
+    "start": "npm run build && npm run serve",
+    "dev": "snowpack dev",
+    "build": "npm run format && snowpack build",
+    "serve": "serve -s -S -l 5002 ./build",
     "format": "prettier --write \"src/**/*.{ts,tsx,scss}\"",
     "lint": "prettier --check \"src/**/*.{ts,tsx,scss}\""
   },
