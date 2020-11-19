@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import type { Route } from 'react-router-dom'
 import banner from '../assets/banner.png'
 import type Routes from './interface'
 
@@ -9,6 +8,7 @@ import DiscordRules from '../pages/Discord/Rules'
 import DiscordStaff from '../pages/Discord/Staff'
 import DiscordPartners from '../pages/Discord/Partners'
 import DiscordRoles from '../pages/Discord/Roles'
+import DiscordVerification from '../pages/Discord/Verification'
 
 const routes: Routes[] = [
   {
@@ -71,6 +71,19 @@ const routes: Routes[] = [
       title: (
         <Fragment>
           Discord <code>Roles</code>
+        </Fragment>
+      ),
+      banner: banner,
+    },
+  },
+  {
+    path: '/discord/verify',
+    component: DiscordVerification,
+    header: {
+      tab: 'Discord Verify',
+      title: (
+        <Fragment>
+          Discord <code>Verification</code>
         </Fragment>
       ),
       banner: banner,
