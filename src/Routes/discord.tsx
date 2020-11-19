@@ -7,6 +7,7 @@ import type Routes from './interface'
 import Discord from '../pages/Discord'
 import DiscordRules from '../pages/Discord/Rules'
 import DiscordStaff from '../pages/Discord/Staff'
+import DiscordRoles from '../pages/Discord/Roles'
 
 const routes : Routes[] = [
     {
@@ -43,6 +44,19 @@ const routes : Routes[] = [
           title: (
             <Fragment>
               Discord <code>Staff</code>
+            </Fragment>
+          ),
+          banner: banner,
+        },
+    },
+    {
+        path: '/discord/roles',
+        component: DiscordRoles,
+        header: {
+          tab: 'Discord Roles',
+          title: (
+            <Fragment>
+              Discord <code>Roles</code>
             </Fragment>
           ),
           banner: banner,
