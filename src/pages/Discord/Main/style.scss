@@ -1,0 +1,16 @@
+.Discord {
+  width: 100%;
+
+  td {
+    padding-bottom: 50px;
+  }
+
+  tr:nth-child(1) td {
+    border-bottom: 2px solid #0004;
+    padding-bottom: 25px;
+  }
+
+  tr:nth-child(2) td {
+    padding-top: 25px;
+  }
+}
