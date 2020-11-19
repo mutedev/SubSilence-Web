@@ -33,3 +33,31 @@ a {
 h1 {
   font-size: 40px;
 }
+
+/* width */
+::-webkit-scrollbar {
+  position: fixed;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #1c2023;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #2e3236;
+  transition: background-color 200ms;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3f4448;
+}

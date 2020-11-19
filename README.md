@@ -2,7 +2,8 @@
 
 ![SubSilence Banner Image](./src/assets/banner-pink.png)
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+> ✨ Bootstrapped with Create Snowpack App (CSA)
+
 > ⌨ Build by the SubSilence Development Team
 
 ## Available Scripts
@@ -13,7 +14,7 @@ Install all dependencies
 
 ### `npm run start`
 
-Formats, builds, and serves the app to http://localhost:5003.
+Formats, builds, and serves the app to the [localhost](http://localhost:5002).
 See `npm run format`, `npm run build`, and `npm run serve` for more information
 
 ### `npm run dev`

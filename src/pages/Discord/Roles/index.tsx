@@ -17,7 +17,7 @@ export default () => {
             </h1>
             <h2>{category.description}</h2>
           </CenterText>
-          <table className="Role-Table">
+          <table className='Role-Table'>
             <tbody>
               {category.roles.map((role: Role, index: number) => (
                 <tr className='Role' key={index}>

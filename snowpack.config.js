@@ -31,7 +31,7 @@ module.exports = {
   },
   devOptions: {
     port,
-    // open: 'none',
+    open: 'none',
   },
   buildOptions: {
     /* ... */
