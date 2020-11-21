@@ -76,7 +76,9 @@ export default () => {
           </tr>
         </tbody>
       </table>
-      <Button center to="/">Return to Home</Button>
+      <Button center to='/'>
+        Return to Home
+      </Button>
     </Fragment>
   )
 }
