@@ -156,7 +156,7 @@ const roles: RoleCategory[] = [
     roles: [
       {
         name: '🌸  Flower',
-        description: 'Flower bois',
+        description: 'Fembois that like flowers',
         color: '#83405a',
       },
       {
