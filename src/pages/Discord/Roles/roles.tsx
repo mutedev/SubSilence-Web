@@ -160,7 +160,7 @@ const roles: RoleCategory[] = [
         color: '#83405a',
       },
       {
-        name: '💄 Femboy Army',
+        name: '💄 Cutie Army',
         description: "Myu's stamp",
         color: '#ff5cb4',
       },
