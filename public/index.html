@@ -6,17 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Default Embed Information -->
-      <meta property="og:title" content="SubSilence Network" />
-      <meta property="og:description" content="The Official SubSilence Website" />
-      <meta property="og:url" content="https://subsilence.nl" />
-      <meta property="og:image" content="http://cdn.subsilence.nl/subsilencelogo.png" />
-      <meta name="theme-color" content="#ff8af9">
+    <meta property="og:title" content="SubSilence Network" />
+    <meta property="og:description" content="The Official SubSilence Website" />
+    <meta property="og:url" content="https://subsilence.nl" />
+    <meta
+      property="og:image"
+      content="http://cdn.subsilence.nl/subsilencelogo.png"
+    />
+    <meta name="theme-color" content="#ff8af9" />
+    <link rel="stylesheet" href="/style.css">
 
     <title>SubSilence</title>
   </head>
   <body>
     <main id="root"></main>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript id="nojs">
+      <header id="Header">
+        <img src="./banner.png" />
+      </header>
+      <section id="Content">
+        <header id="Content-Header">Oh no!</header>
+        <section class="Center">
+          <div>It appears you don't have Javascript enabled</div>
+          <div>Enable it to use SubSilence.nl</div>
+        </section>
+      </section>
+      <footer id="Footer">
+        <code>&copy; SubSilence Network 2018 - 2020</code>
+      </footer>
+    </noscript>
     <script type="module" src="/_dist_/index.js"></script>
   </body>
 </html>

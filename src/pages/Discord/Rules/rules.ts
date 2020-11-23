@@ -11,5 +11,5 @@ export default [
   'Please use only normal characters for your Discord (nick)name',
   'All staff members are allowed to kick/ban/mute you even if you have not broken a rule',
   'No people under 16',
-  'Post only channel related content, move regular conversation to the general-talk chat',
+  'Post only channel related content, move regular conversation to the general-talk chat'
 ]

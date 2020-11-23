@@ -10,14 +10,14 @@ const roles: RoleCategory[] = [
       {
         name: '(⌐■_■) 🏵️ Administrator',
         description: 'For the administrators of the server',
-        color: '#ffc796',
+        color: '#ffc796'
       },
       {
         name: '(⌐■_■) 🌻 Moderator',
         description: 'For the moderators of the server',
-        color: '#f0ce70',
-      },
-    ],
+        color: '#f0ce70'
+      }
+    ]
   },
 
   // Display Roles
@@ -28,41 +28,41 @@ const roles: RoleCategory[] = [
       {
         name: "(⌐■_■) 💜 App's Haven",
         description: 'For people who come from the "App\'s Haven" server',
-        color: '#71368a',
+        color: '#71368a'
       },
       {
         name: "(⌐■_■) 💗 Sente's Selected",
         description:
           'For people who come from the "Sentebo\'s Fwen Place" server or are friends of people in that server',
-        color: '#f6cbff',
+        color: '#f6cbff'
       },
       {
         name: '(⌐■_■) 🌊 Bakje Woater',
         description: 'For people who come from the "Bakje Woater" server',
-        color: '#3498db',
+        color: '#3498db'
       },
       {
         name: '(⌐■_■) ⚗️ Bot Developer',
         description: 'For people who help develop Charmy#0307',
-        color: '#90ffdc',
+        color: '#90ffdc'
       },
       {
         name: '(⌐■_■) 🎀 Blameless Brats',
         description: 'For people who are in the SubSilence Clan',
-        color: '#e91e63',
+        color: '#e91e63'
       },
       {
         name: '(⌐■_■) 🖤 Gang',
         description:
           'For people who come from the "Hentai Harem" server or any server with a close relation to it',
-        color: '#1c1c1c',
+        color: '#1c1c1c'
       },
       {
         name: '(⌐■_■) 🌷 Dutch Bastard',
         description: 'For native Dutch speakers',
-        color: '#a84300',
-      },
-    ],
+        color: '#a84300'
+      }
+    ]
   },
 
   // Verification Roles
@@ -73,31 +73,31 @@ const roles: RoleCategory[] = [
       {
         name: '🏵️ (real) milkers',
         description: 'This person is a verified female',
-        color: '#fff6c0',
+        color: '#fff6c0'
       },
       {
         name: '🎋 18+',
         description: 'This person proved to be 18+ years old',
-        color: '#2ecc71',
+        color: '#2ecc71'
       },
       {
         name: '💒 Cabin Pass',
         description:
           'This person has access to the private channels of the server',
-        color: '#f66175',
+        color: '#f66175'
       },
       {
         name: '☑️ Verified Member',
         description:
           'This person has been given access to the server but has not yet been verified to be 18+',
-        color: '#3498db',
+        color: '#3498db'
       },
       {
         name: '🔰 Unverified Member',
         description: 'This person has not yet been given access to the server',
-        color: '#f1c40f',
-      },
-    ],
+        color: '#f1c40f'
+      }
+    ]
   },
 
   // Punishment Roles
@@ -109,17 +109,17 @@ const roles: RoleCategory[] = [
         name: 'muted',
         description:
           "For people who's permission to send and view messages has been revoked (for a limited time)",
-        color: '#36393e',
-      },
-    ],
+        color: '#36393e'
+      }
+    ]
   },
 
   // Custom Roles
   {
     title: 'Custom',
     description: 'Custom roles for people who requested them',
-    roles: [],
-  },
+    roles: []
+  }
 ]
 
 export default roles

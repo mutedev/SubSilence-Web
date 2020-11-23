@@ -24,8 +24,8 @@ let routes: Routes[] = [
           Welcome to <code>SubSilence</code>
         </Fragment>
       ),
-      banner: banner,
-    },
+      banner: banner
+    }
   },
   {
     path: '/about',
@@ -37,8 +37,8 @@ let routes: Routes[] = [
           About <code>SubSilence</code>
         </Fragment>
       ),
-      banner: banner,
-    },
+      banner: banner
+    }
   },
 
   // From here on it will be errors
@@ -52,9 +52,9 @@ let routes: Routes[] = [
           <code>403</code>
         </Fragment>
       ),
-      banner: banner,
-    },
-  },
+      banner: banner
+    }
+  }
 ]
 
 routes = [...routes, ...discord]
@@ -65,8 +65,8 @@ routes.push({
   header: {
     tab: '404',
     title: <code>404</code>,
-    banner: banner,
-  },
+    banner: banner
+  }
 })
 
 export default routes
