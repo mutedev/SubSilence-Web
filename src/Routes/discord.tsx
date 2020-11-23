@@ -21,8 +21,8 @@ const routes: Routes[] = [
           SubSilence <code>Discord</code>
         </Fragment>
       ),
-      banner: banner,
-    },
+      banner: banner
+    }
   },
   {
     path: '/discord/rules',
@@ -34,8 +34,8 @@ const routes: Routes[] = [
           Discord <code>Rules</code>
         </Fragment>
       ),
-      banner: banner,
-    },
+      banner: banner
+    }
   },
   {
     path: '/discord/staff',
@@ -47,8 +47,8 @@ const routes: Routes[] = [
           Discord <code>Staff</code>
         </Fragment>
       ),
-      banner: banner,
-    },
+      banner: banner
+    }
   },
   {
     path: '/discord/partners',
@@ -60,8 +60,8 @@ const routes: Routes[] = [
           Discord <code>Partners</code>
         </Fragment>
       ),
-      banner: banner,
-    },
+      banner: banner
+    }
   },
   {
     path: '/discord/roles',
@@ -73,8 +73,8 @@ const routes: Routes[] = [
           Discord <code>Roles</code>
         </Fragment>
       ),
-      banner: banner,
-    },
+      banner: banner
+    }
   },
   {
     path: '/discord/verify',
@@ -86,9 +86,9 @@ const routes: Routes[] = [
           Discord <code>Verification</code>
         </Fragment>
       ),
-      banner: banner,
-    },
-  },
+      banner: banner
+    }
+  }
 ]
 
 export default routes
