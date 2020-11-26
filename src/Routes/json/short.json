@@ -1,0 +1,9 @@
+{
+  "prefix": "",
+  "routes": [
+    {
+      "from": "/rules",
+      "to": "/discord/rules"
+    }
+  ]
+}

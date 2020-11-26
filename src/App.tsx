@@ -1,22 +1,9 @@
-import React, { Fragment } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Layout from './components/Layout'
-import routes from './Routes'
-import type Routes from './Routes/interface'
+import React from 'react'
+import Router from './Routes/index'
+
 
 export default () => {
   return (
-    <Router>
-      <Switch>
-        {routes.map((route: Routes, index: number) => (
-          <Route
-            key={index}
-            exact
-            path={route.path}
-            render={() => <Layout route={route} />}
-          />
-        ))}
-      </Switch>
-    </Router>
+    <Router />
   )
 }

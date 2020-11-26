@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import type Routes from '../../Routes/interface'
+import type { Routes } from '../../Routes/interface'
 
 import './style.scss'
 

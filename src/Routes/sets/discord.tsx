@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react'
-import banner from '../assets/banner.png'
-import type Routes from './interface'
+import banner from '../../assets/banner.png'
+import type { Routes } from '../interface'
 
 // Import pages
-import Discord from '../pages/Discord/Main'
-import DiscordRules from '../pages/Discord/Rules'
-import DiscordStaff from '../pages/Discord/Staff'
-import DiscordPartners from '../pages/Discord/Partners'
-import DiscordRoles from '../pages/Discord/Roles'
-import DiscordVerification from '../pages/Discord/Verification'
+import Discord from '../../pages/Discord/Main'
+import DiscordRules from '../../pages/Discord/Rules'
+import DiscordStaff from '../../pages/Discord/Staff'
+import DiscordPartners from '../../pages/Discord/Partners'
+import DiscordRoles from '../../pages/Discord/Roles'
+import DiscordVerification from '../../pages/Discord/Verification'
 
 const routes: Routes[] = [
   {

@@ -1,72 +1,35 @@
-import React, { Fragment } from 'react'
-import banner from '../assets/banner.png'
-import type Routes from './interface'
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch
+} from 'react-router-dom'
+import Layout from '../components/Layout'
+import type { Routes, ShortRoutes } from './interface'
 
-// Import other routes
-import discord from './discord'
+import normalRoutes from './main/normal'
+import shortRoutes from './main/short'
 
-// Import Pages
-import Home from '../pages/Home'
-import About from '../pages/About'
-
-// Import Error Pages
-import Error404 from '../pages//Error/404'
-import Error403 from '../pages//Error/403'
-
-let routes: Routes[] = [
-  {
-    path: '/',
-    component: Home,
-    header: {
-      tab: 'Home',
-      title: (
-        <Fragment>
-          Welcome to <code>SubSilence</code>
-        </Fragment>
-      ),
-      banner: banner
-    }
-  },
-  {
-    path: '/about',
-    component: About,
-    header: {
-      tab: 'About',
-      title: (
-        <Fragment>
-          About <code>SubSilence</code>
-        </Fragment>
-      ),
-      banner: banner
-    }
-  },
-
-  // From here on it will be errors
-  {
-    path: '/error/403',
-    component: Error403,
-    header: {
-      tab: '403',
-      title: (
-        <Fragment>
-          <code>403</code>
-        </Fragment>
-      ),
-      banner: banner
-    }
-  }
-]
-
-routes = [...routes, ...discord]
-
-routes.push({
-  path: '*',
-  component: Error404,
-  header: {
-    tab: '404',
-    title: <code>404</code>,
-    banner: banner
-  }
-})
-
-export default routes
+export default () => (
+  <Router>
+    <Switch>
+      {shortRoutes.routes.map((shortRoute: ShortRoutes, index: number) => (
+        <Route
+          key={index}
+          exact
+          path={shortRoutes.prefix + shortRoute.from}
+          render={() => <Redirect to={shortRoute.to} />}
+        />
+      ))}
+      {normalRoutes.map((normalRoute: Routes, index: number) => (
+        <Route
+          key={index}
+          exact
+          path={normalRoute.path}
+          render={() => <Layout route={normalRoute} />}
+        />
+      ))}
+    </Switch>
+  </Router>
+)
