@@ -3,6 +3,12 @@ import { render } from 'react-dom'
 import App from './App'
 import './index.scss'
 
+const root = document.getElementById('root') as HTMLElement
+root.style.display = 'block'
+
+const nojs = document.getElementById('nojs') as HTMLElement
+nojs.style.display = 'none'
+
 render(
   <React.StrictMode>
     <App />

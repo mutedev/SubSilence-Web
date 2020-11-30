@@ -5,7 +5,7 @@ const partners: Partners[] = [
     name: 'AO3A',
     quote: 'Deltion College AO3A',
     img:
-      'https://cdn.discordapp.com/icons/552533572200955914/08f465245824b5d68f48fadfc8a2276a.webp?size=1024',
+      'https://cdn.discordapp.com/icons/552533572200955914/08f465245824b5d68f48fadfc8a2276a.webp?size=1024'
   },
   {
     name: 'Bakje Woater',

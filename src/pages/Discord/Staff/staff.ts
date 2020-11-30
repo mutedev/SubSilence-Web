@@ -5,23 +5,23 @@ const staff: Staff = {
     {
       id: 0,
       name: 'Owner',
-      color: 'rgb(226, 92, 92)',
+      color: 'rgb(226, 92, 92)'
     },
     {
       id: 1,
       name: 'Administrator',
-      color: 'rgb(238, 193, 109)',
+      color: 'rgb(238, 193, 109)'
     },
     {
       id: 2,
       name: 'Moderator',
-      color: 'rgb(243, 243, 125)',
+      color: 'rgb(243, 243, 125)'
     },
     {
       id: 3,
       name: 'Developer',
-      color: '#90FFDC',
-    },
+      color: '#90FFDC'
+    }
   ],
   users: [
     {
@@ -31,7 +31,7 @@ const staff: Staff = {
       quote: 'Nyan~',
       img:
         'https://cdn.discordapp.com/avatars/190486065512054786/aa6d0b7be6b7c2eb055588fd1073dd42.png?size=1024',
-      timezone: 'CET',
+      timezone: 'CET'
     },
     {
       roles: [1],
@@ -40,7 +40,7 @@ const staff: Staff = {
       quote: 'Huts',
       img:
         'https://cdn.discordapp.com/avatars/263364989216096276/33235a79b569a62254aee0f4dadf14b2.png?size=1024',
-      timezone: 'CET',
+      timezone: 'CET'
     },
     {
       roles: [1],
@@ -49,7 +49,7 @@ const staff: Staff = {
       quote: 'Traps are gay',
       img:
         'https://cdn.discordapp.com/avatars/260002038924967937/a_9e2a28c98b17cbacbbc4ba148bc2abc6.gif?size=1024',
-      timezone: 'CET',
+      timezone: 'CET'
     },
     {
       roles: [1, 3],
@@ -58,7 +58,7 @@ const staff: Staff = {
       quote: 'Nyaa~',
       img:
         'https://cdn.discordapp.com/avatars/344502606107770880/58e4541fc3c07b0e6c187a48b08c0d97.png?size=1024',
-      timezone: 'CET',
+      timezone: 'CET'
     },
     {
       roles: [2],
@@ -85,7 +85,7 @@ const staff: Staff = {
       quote: 'Totally not a femboy',
       img:
         'https://cdn.discordapp.com/avatars/240986142940332033/d592b8bb24992892bae55798da9f6404.png?size=1024',
-      timezone: 'CET',
+      timezone: 'CET'
     },
     {
       roles: [2],
@@ -94,7 +94,7 @@ const staff: Staff = {
       quote: '-',
       img:
         'https://cdn.discordapp.com/avatars/157587601266704384/778b80e0b576d4d5fe1579ec7dc7a1c7.png?size=1024',
-      timezone: 'CET',
+      timezone: 'CET'
     },
     {
       roles: [2],
@@ -112,7 +112,7 @@ const staff: Staff = {
       quote: 'Professional Potato',
       img:
         'https://cdn.discordapp.com/avatars/306692821358739456/618fd4904163383039921385859446ae.png?size=1024',
-      timezone: 'CET',
+      timezone: 'CET'
     },
     {
       roles: [3],
