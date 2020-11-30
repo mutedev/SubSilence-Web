@@ -11,18 +11,18 @@ export default () => {
       <br />
       <p>
         SubSilence is a small but growing community of people all around the
-        world. Most of the acticity takes place in the{' '}
+        world. Most of the acticity takes place in the 
         <code>
           <a href='/discord'>Discord</a>
-        </code>{' '}
+        </code> 
         server but we also do stuff in real life and create content for the web.
       </p>
       <br />
       <p>
-        Some of our members also stream on{' '}
+        Some of our members also stream on 
         <code>
-          <a href='https://twitch.tv'>Twitch</a>
-        </code>{' '}
+          <a href='https://twitch.tv'>Twitch</a> 
+        </code>
         to try and get more members SubSilence is supposed to be a nice and
         comfortable place for everyone. That is why we have a few rules in
         place. This is only so that we can keep the bad stuff out of the
@@ -32,10 +32,10 @@ export default () => {
       <br />
       <p>
         Currently there are a few services that SubSilence offers, some only to
-        members of the{' '}
+        members of the 
         <code>
           <a href='/discord'>SubSilence Discord Server</a>
-        </code>{' '}
+        </code> 
         as updates will be sent in a channel to keep everyone who uses the
         service up to date. Things such as the SubSilence Minecraft server are
         limited to only people who are active in the Discord server so we can
@@ -47,7 +47,7 @@ export default () => {
         The bot will mkae things like moderating specific channels a lot easier.
         The bot also features the verification system that we use to make sure
         we do not get raided. For more information about Charmy you can visit
-        her{' '}
+        her 
         <code>
           <a href='/charmy'>webpage</a>
         </code>
