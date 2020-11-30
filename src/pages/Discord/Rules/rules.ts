@@ -11,4 +11,5 @@ export default [
   'All staff members are allowed to kick/ban/mute you even if you have not broken a rule',
   'Everyone in the server must be 16 years of age or older. Anyone under will get banned ',
   'Post only channel related content, move regular conversation to the general-talk chat',
+  'Ddos threats will lead to a ban'
 ]

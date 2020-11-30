@@ -67,7 +67,7 @@ const staff: Staff = {
       quote: 'They still haunt me',
       img:
         'https://cdn.discordapp.com/avatars/409665404726673409/a_2689233f83b125232ffaefc8b1f8cc3c.gif?size=1024',
-      timezone: 'CET',
+      timezone: 'CET'
     },
     {
       roles: [2],
@@ -76,7 +76,7 @@ const staff: Staff = {
       quote: '-',
       img:
         'https://cdn.discordapp.com/avatars/187775604706377729/a_bbec26bac10443f890906471057b4986.gif?size=1024',
-      timezone: 'EST',
+      timezone: 'EST'
     },
     {
       roles: [2],
@@ -103,7 +103,7 @@ const staff: Staff = {
       quote: '-',
       img:
         'https://cdn.discordapp.com/avatars/351535435010539521/9fcbec4ae8e599bc61d6d06f8cbe5ea2.png?size=1024',
-      timezone: 'Unknown',
+      timezone: 'Unknown'
     },
     {
       roles: [2, 3],
@@ -121,9 +121,9 @@ const staff: Staff = {
       quote: '.unmute .mute',
       img:
         'https://cdn.discordapp.com/avatars/168801348685398016/223c8a617bc995961a0c95f98ea62616.png?size=1024',
-      timezone: 'CET',
-    },
-  ],
+      timezone: 'CET'
+    }
+  ]
 }
 
 export default staff

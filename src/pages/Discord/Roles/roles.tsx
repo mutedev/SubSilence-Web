@@ -28,12 +28,27 @@ const roles: RoleCategory[] = [
       {
         name: '🎀 Server Booster 🎀',
         description: 'For the people who are Nitro boosting the server',
-        color: '#f47fff',
+        color: '#f47fff'
+      },
+      {
+        name: '🎀 Blameless Brats',
+        description: 'For people who are in the SubSilence Clan',
+        color: '#e91e63'
       },
       {
         name: "💜 App's Haven",
         description: 'For people who come from the "App\'s Haven" server',
         color: '#71368a'
+      },
+      {
+        name: '👮‍♀️ Lolice Prison',
+        description: 'For people who come from the "LolicePrison" server',
+        color: '#9593dc'
+      },
+      {
+        name: '🌊 Bakje Woater',
+        description: 'For people who come from the "Bakje Woater" server',
+        color: '#3498db'
       },
       {
         name: "💗 Sente's Selected",
@@ -42,9 +57,15 @@ const roles: RoleCategory[] = [
         color: '#f6cbff'
       },
       {
-        name: '🌊 Bakje Woater',
-        description: 'For people who come from the "Bakje Woater" server',
-        color: '#3498db'
+        name: '🖤 Gang',
+        description:
+          'For people who come from the "Hentai Harem" server or any server with a close relation to it',
+        color: '#727272'
+      },
+      {
+        name: '🌷 Dutch Bastard',
+        description: 'For native Dutch speakers',
+        color: '#ffa000'
       },
       {
         name: '⚗️ Developer',
@@ -52,45 +73,29 @@ const roles: RoleCategory[] = [
         color: '#90ffdc'
       },
       {
-        name: '🎀 Blameless Brats',
-        description: 'For people who are in the SubSilence Clan',
-        color: '#e91e63'
-      },
-      {
-        name: '🖤 Gang',
-        description:
-          'For people who come from the "Hentai Harem" server or any server with a close relation to it',
-        color: '#727272',
-      },
-      {
-        name: '🌷 Dutch Bastard',
-        description: 'For native Dutch speakers',
-        color: '#ffa000',
-      },
-      {
         name: '💜 Hugbox',
         description: 'Gives permission to speak in the Hugbox voice channel',
-        color: '#e4acf7',
+        color: '#e4acf7'
       },
       {
         name: '💘 The Reselected',
         description:
           'Gives permission to the hidden text channel. This role is usually granted for short amounts of time',
-        color: '#e83030',
+        color: '#e83030'
       },
       {
         name: '💦 Marvin',
         description:
           'Gives access to a private channel, this channel is related to a drama which happened a long time ago and is now rarely used',
-        color: '#66cee6',
+        color: '#66cee6'
       },
       {
         name: '💒 Cabin Pass',
         description:
           'This person has been given access to the private voice channel',
-        color: '#F66175',
-      },
-    ],
+        color: '#F66175'
+      }
+    ]
   },
 
   // Verification Roles
@@ -107,7 +112,7 @@ const roles: RoleCategory[] = [
         name: '💕 Trap',
         description:
           'A user with this role has access to the Traps NSFW channel',
-        color: '#FFCAFF',
+        color: '#FFCAFF'
       },
       {
         name: '🎋 18+',
@@ -118,7 +123,7 @@ const roles: RoleCategory[] = [
         name: '🧬 18',
         description:
           'This person proved to be 18+ years old, but does not want/has not been given access to NSFW',
-        color: '#2ECC71',
+        color: '#2ECC71'
       },
       {
         name: '☑️ Verified Member',
@@ -157,20 +162,20 @@ const roles: RoleCategory[] = [
       {
         name: '🌸  Flower',
         description: 'Fembois that like flowers',
-        color: '#83405a',
+        color: '#83405a'
       },
       {
         name: '💄 Cutie Army',
         description: "Myu's stamp",
-        color: '#ff5cb4',
+        color: '#ff5cb4'
       },
       {
         name: "👿 Pug's Purgatory",
         description: 'For those who suffer',
-        color: '#870202',
-      },
-    ],
-  },
+        color: '#870202'
+      }
+    ]
+  }
 ]
 
 export default roles
