@@ -37,7 +37,7 @@ const staff: Staff = {
       roles: [1],
       name: 'ItsTimZB',
       discordName: 'TimZB#6969',
-      quote: 'Eem een dikke portie kanker',
+      quote: 'Huts',
       img:
         'https://cdn.discordapp.com/avatars/263364989216096276/33235a79b569a62254aee0f4dadf14b2.png?size=1024',
       timezone: 'CET',
@@ -66,7 +66,7 @@ const staff: Staff = {
       discordName: 'Lightpug#1699',
       quote: 'They still haunt me',
       img:
-        'https://cdn.discordapp.com/avatars/409665404726673409/a_7efc27c89df2dfa97974616a8b274f4d.gif?size=1024',
+        'https://cdn.discordapp.com/avatars/409665404726673409/a_2689233f83b125232ffaefc8b1f8cc3c.gif?size=1024',
       timezone: 'CET',
     },
     {
@@ -75,7 +75,7 @@ const staff: Staff = {
       discordName: 'Torch#0001',
       quote: '-',
       img:
-        'https://cdn.discordapp.com/avatars/187775604706377729/a2af837baa347b5c2e132c0c0d9a2328.png?size=1024',
+        'https://cdn.discordapp.com/avatars/187775604706377729/a_bbec26bac10443f890906471057b4986.gif?size=1024',
       timezone: 'EST',
     },
     {
@@ -102,7 +102,7 @@ const staff: Staff = {
       discordName: 'Atsi#6969',
       quote: '-',
       img:
-        'https://cdn.discordapp.com/avatars/351535435010539521/a_0c9fbf9c465f5331e0389553dfa23b12.gif?size=1024',
+        'https://cdn.discordapp.com/avatars/351535435010539521/9fcbec4ae8e599bc61d6d06f8cbe5ea2.png?size=1024',
       timezone: 'Unknown',
     },
     {
@@ -118,9 +118,9 @@ const staff: Staff = {
       roles: [3],
       name: 'Swat',
       discordName: 'Swat#7165',
-      quote: '-',
+      quote: '.unmute .mute',
       img:
-        'https://cdn.discordapp.com/avatars/168801348685398016/438e1cc4590a57ac0ea595d5fa19cf32.png?size=1024',
+        'https://cdn.discordapp.com/avatars/168801348685398016/223c8a617bc995961a0c95f98ea62616.png?size=1024',
       timezone: 'CET',
     },
   ],
