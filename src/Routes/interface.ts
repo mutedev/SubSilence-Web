@@ -1,4 +1,4 @@
-export default interface Routes {
+export interface Routes {
   path: string
   component: () => JSX.Element
   header: {
@@ -7,4 +7,9 @@ export default interface Routes {
     color?: string
     banner: string
   }
+}
+
+export interface ShortRoutes {
+  from: string
+  to: string
 }
