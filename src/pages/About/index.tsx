@@ -13,7 +13,7 @@ export default () => {
         SubSilence is a small but growing community of people all around the
         world. Most of the acticity takes place in the
         <code>
-          <a href='/discord'>Discord</a>
+          <a href='/discord'> Discord </a>
         </code>
         server but we also do stuff in real life and create content for the web.
       </p>
@@ -21,7 +21,7 @@ export default () => {
       <p>
         Some of our members also stream on
         <code>
-          <a href='https://twitch.tv'>Twitch</a>
+          <a href='https://twitch.tv'> Twitch </a>
         </code>
         to try and get more members SubSilence is supposed to be a nice and
         comfortable place for everyone. That is why we have a few rules in
@@ -34,7 +34,7 @@ export default () => {
         Currently there are a few services that SubSilence offers, some only to
         members of the
         <code>
-          <a href='/discord'>SubSilence Discord Server</a>
+          <a href='/discord'> SubSilence Discord Server </a>
         </code>
         as updates will be sent in a channel to keep everyone who uses the
         service up to date. Things such as the SubSilence Minecraft server are
@@ -49,9 +49,8 @@ export default () => {
         we do not get raided. For more information about Charmy you can visit
         her
         <code>
-          <a href='/charmy'>webpage</a>
+          <a href='/charmy'> webpage </a>
         </code>
-        .
       </p>
       <br />
       <p>
