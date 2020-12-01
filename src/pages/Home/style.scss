@@ -1,0 +1,37 @@
+.HomeIndex {
+  width: 100%;
+  margin-bottom: 20px;
+
+  td {
+    padding-bottom: 50px;
+  }
+
+  tr:nth-child(1) td,
+  tr:nth-child(3) td {
+    border-bottom: 2px solid #0004;
+    padding-bottom: 25px;
+  }
+
+  tr:nth-child(2) td {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .HomeIndex {
+    tr {
+      display: flex;
+      flex-direction: column;
+
+      td {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    tr:nth-child(1) td,
+    tr:nth-child(6) td {
+      border-bottom: none;
+    }
+  }
+}
