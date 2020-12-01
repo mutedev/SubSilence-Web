@@ -4,7 +4,7 @@ import App from './App'
 import './index.scss'
 
 const root = document.getElementById('root') as HTMLElement
-root.style.display = 'block'
+root.style.display = 'flex'
 
 const nojs = document.getElementById('nojs') as HTMLElement
 nojs.style.display = 'none'

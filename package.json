@@ -31,10 +31,13 @@
     "@types/snowpack-env": "^2.3.2",
     "@web/test-runner": "^0.9.11",
     "chai": "^4.2.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
     "node-sass": "^5.0.0",
     "prettier": "^2.0.5",
     "serve": "^11.3.2",
     "snowpack": "^2.17.1",
-    "typescript": "^4.0.0"
+    "typescript": "^4.0.0",
+    "snowpack-plugin-imagemin": "^1.0.0"
   }
 }

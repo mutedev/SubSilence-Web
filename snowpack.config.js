@@ -6,7 +6,7 @@ const port = parseInt(process.env.PORT) || 3000
 module.exports = {
   mount: {
     public: '/',
-    src: '/_dist_',
+    src: '/_dist_'
   },
   plugins: [
     '@snowpack/plugin-react-refresh',
@@ -19,9 +19,20 @@ module.exports = {
         minifyJS: true,
         minifyCSS: true,
         minifyHTML: true,
-        preloadModules: true,
-      },
+        preloadModules: true
+      }
     ],
+    [
+      'snowpack-plugin-imagemin',
+      {
+        /* see "Plugin Options" below */
+        include: ['**/*.jpg', '**/*.png'],
+        plugins: [
+          require('imagemin-mozjpeg')({ quality: 90, progressive: true }),
+          require('imagemin-optipng')({ optimizationLevel: 7 })
+        ]
+      }
+    ]
   ],
   install: [
     /* ... */
@@ -31,7 +42,7 @@ module.exports = {
   },
   devOptions: {
     port,
-    open: 'none',
+    open: 'none'
   },
   buildOptions: {
     /* ... */
@@ -41,5 +52,5 @@ module.exports = {
   },
   alias: {
     /* ... */
-  },
+  }
 }

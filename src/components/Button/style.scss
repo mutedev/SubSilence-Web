@@ -3,7 +3,6 @@
   $secondary: #4d81ec;
   $lighten: 10;
 
-  margin-bottom: 20px;
   appearance: button;
   display: block;
   cursor: pointer;
@@ -16,6 +15,7 @@
   border-radius: 3px;
   font-size: 18px;
   color: white;
+  margin-bottom: 20px;
 
   &:hover {
     background: linear-gradient(
@@ -51,9 +51,19 @@
 .Button-Link {
   display: block;
   width: fit-content;
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   &-Center {
     @extend .Button-Link;
     margin: 0 auto;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }

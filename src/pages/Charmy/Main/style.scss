@@ -1,0 +1,23 @@
+.Charmy {
+  &-Img {
+    width: 400px;
+    border-radius: 50%;
+    transform: rotate(10deg);
+    animation: rotate 1000ms forwards;
+    box-shadow: 0 0 10px #0006;
+    user-select: none;
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(10deg);
+      }
+      100% {
+        transform: rotate(-10deg);
+      }
+    }
+  }
+
+  &-Text {
+    margin-top: 20px;
+  }
+}
