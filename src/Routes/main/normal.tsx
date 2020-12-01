@@ -8,6 +8,7 @@ import About from '../../pages/About'
 
 // Import other routes
 import discord from '../sets/discord'
+import charmy from '../sets/charmy'
 
 // Import error pages
 import Error404 from '../../pages/Error/404'
@@ -44,6 +45,7 @@ let routes: Routes[] = [
 
   // Imported routes
   ...discord,
+  ...charmy,
 
   // Errors
   {
