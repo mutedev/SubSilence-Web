@@ -1,0 +1,32 @@
+{
+  "name": "Other Commands",
+  "url": "other-commands",
+  "desc": "These commands are all the other commands, not fitting into any category.",
+  "commands": [
+    {
+      "url": "img",
+      "name": ".img [filter] [fileType]",
+      "desc": "This will modify the last image you sent, if you didn’t send one it will look in the channel, and it will grab the last image sent in the previous 20 messages. You can use the following filters so far: 'invert' & 'grayscale'. In the filetype parameter you can specify the format of the image that is returned by Charmy (by deafault this is .png)"
+    },
+    {
+      "url": "suggest",
+      "name": ".suggest [suggestion]",
+      "desc": "This will create a new suggestion embed and delete your message. Charmy will also add a cross and a checkmark reaction to the embed so people can vote for the suggestion."
+    },
+    {
+      "url": "bigtext",
+      "name": ".bigtext [text]",
+      "desc": "This command converts the given text into bigtext."
+    },
+    {
+      "url": "uwu",
+      "name": ".uwu [text]",
+      "desc": "This will convert the input text to uwu-text. If no input is given it will use the text from the latest message."
+    },
+    {
+      "url": "define",
+      "name": ".define [text]",
+      "desc": "Mass assigns the specified role to all users. The last two options are optional. If you set the second option to 'true', it will remove the specified role from all users. If you set the third option to 'true', Charmy will log all the responses to the channel the command is executed in."
+    }
+  ]
+}

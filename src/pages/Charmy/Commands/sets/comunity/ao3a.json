@@ -1,0 +1,12 @@
+{
+  "name": "AO3A Commands",
+  "url": "ao3a-commands",
+  "desc": "These commands are personal for the AO3A Discord server.",
+  "commands": [
+    {
+      "url": "hwadd",
+      "name": ".hwadd [subject] [due-date] [description]",
+      "desc": "This will create a new embed with a checkmark reaction so you can show that you have completed the homework."
+    }
+  ]
+}

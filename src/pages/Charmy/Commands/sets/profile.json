@@ -1,0 +1,28 @@
+{
+  "name": "Profile Commands",
+  "url": "profile-commands",
+  "desc": "These commands are for the user profiles.",
+  "commands": [
+    {
+      "url": "profile",
+      "name": ".profile [user]",
+      "desc": "This command retrieves your or your target’s Charmy profile from the database and shows it in the chat."
+    },
+    {
+      "url": "status",
+      "name": ".status [text]",
+      "desc": "This command will set the status on your Charmy profile."
+    },
+    {
+      "url": "title",
+      "name": ".title [text]",
+      "desc": "this command will set the title on your Charmy profile."
+    },
+    {
+      "url": "color",
+      "name": ".color [rgb/preset-name] [red-value] [green-value] [blue-value]",
+      "alias": ".colour",
+      "desc": "This command will change your profile colour. You can pick a colour from the following list or set a custom colour by typing 'RGB' and then the values for red, green and blue (these must be numbers ranging from 0 to 255). Existing color presets: coral, navy, pink, lime, turquoise, purple, gold."
+    }
+  ]
+}

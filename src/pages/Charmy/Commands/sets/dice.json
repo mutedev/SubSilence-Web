@@ -1,0 +1,42 @@
+{
+  "name": "Dice Commands",
+  "url": "dice-commands",
+  "desc": "With these commands you can role virtual dice.",
+  "commands": [
+    {
+      "url": "d4",
+      "name": ".d4 [amount] [modifier]",
+      "desc": "Rolls a d4 dice and returns a value, user can specify how many dice to roll and if a modifier should be applied."
+    },
+    {
+      "url": "d6",
+      "name": ".d6 [amount] [modifier]",
+      "desc": "Rolls a d6 dice and returns a value, user can specify how many dice to roll and if a modifier should be applied."
+    },
+    {
+      "url": "d8",
+      "name": ".d8 [amount] [modifier]",
+      "desc": "Rolls a d8 dice and returns a value, user can specify how many dice to roll and if a modifier should be applied."
+    },
+    {
+      "url": "d10",
+      "name": ".d10 [amount] [modifier]",
+      "desc": "Rolls a d10 dice and returns a value, user can specify how many dice to roll and if a modifier should be applied."
+    },
+    {
+      "url": "d12",
+      "name": ".d12 [amount] [modifier]",
+      "desc": "Rolls a d12 dice and returns a value, user can specify how many dice to roll and if a modifier should be applied."
+    },
+    {
+      "url": "d20",
+      "name": ".d20 [amount] [modifier]",
+      "desc": "Rolls a d20 dice and returns a value, user can specify how many dice to roll and if a modifier should be applied."
+    },
+    {
+      "url": "d100%",
+      "name": ".d100% [amount] [modifier]",
+      "desc": "Rolls a d100% dice and returns a value, user can specify how many dice to roll and if a modifier should be applied."
+    }
+  ]
+}

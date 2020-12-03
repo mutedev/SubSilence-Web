@@ -1,0 +1,72 @@
+{
+  "name": "Admin Commands",
+  "url": "admin-commands",
+  "desc": "These commands are for server admins only.",
+  "commands": [
+    {
+      "url": "warn",
+      "name": ".warn [target] [reason]",
+      "desc": "This command warns the target for a specified reason, this warn will be stored in the database."
+    },
+    {
+      "url": "deinfarct",
+      "name": ".deinfract [warn-id]",
+      "desc": "This command removes a warning from the database."
+    },
+    {
+      "url": "warns",
+      "name": ".warns [target]",
+      "desc": "This command retrieves the list of warnings the user has."
+    },
+    {
+      "url": "kick",
+      "name": ".kick [target] [reason]",
+      "desc": "Kicks the target for a specified reason, the user will get a direct message telling them why they were kicked from the server."
+    },
+    {
+      "url": "ban",
+      "name": ".ban [target] [reason]",
+      "desc": "Bans the target user for a specified reason, the user will get a direct message telling them why they were banned from the server."
+    },
+    {
+      "url": "verify",
+      "name": ".verify [target]",
+      "desc": "Verifies the targeted user. The target user will be granted a role with “Verified” in the name. And a role with “Unverified” in its name will be removed from the user’s roles."
+    },
+    {
+      "url": "unverify",
+      "name": ".unverify [target]",
+      "desc": "Unverifies the targeted user. The target user’s “Verified” role will be revoked and (if it exists) a role with “Unverified” in the name will be granted to the user."
+    },
+    {
+      "url": "mute",
+      "name": ".mute [target]",
+      "desc": "Mutes the targeted user, this will remove all verification roles that may have been granted to them and add the “Muted” role. You can configure this role so that people will not be able to view or type in channels."
+    },
+    {
+      "url": "unmute",
+      "name": ".unmute [target]",
+      "desc": "Un-mutes the targeted user, this will grant the user the “Unverified” role and removes the “Muted” role."
+    },
+    {
+      "url": "purge",
+      "name": ".purge [amount]",
+      "desc": "This removes the given amount of messages from the chat that the command was executed in."
+    },
+    {
+      "url": "defroles",
+      "name": ".defroles [list/add/remove] [rolename]",
+      "desc": "With this command you can list all the default roles that will be granted to a user upon joining the server. You can also add and remove roles from the list using the other parameters."
+    },
+    {
+      "url": "guildconfig",
+      "name": ".guildconfig [option] [true/false]",
+      "desc": "With this command you can change that Charmy does in your server. You can enable/disable ChatLogging, EventLogging and ChatCensoring."
+    },
+    {
+      "url": "wordban",
+      "name": ".wordban [list/add/remove] [word]",
+      "desc": "If you turn on ChatCensoring with the GuildConfig command you can add or remove words from the ban list. You can also view the list."
+    }
+  ]
+}

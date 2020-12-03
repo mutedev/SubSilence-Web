@@ -4,6 +4,7 @@ import type { Routes } from '../interface'
 
 // Import pages
 import Charmy from '../../pages/Charmy/Main'
+import CharmyCommands from '../../pages/Charmy/Commands'
 
 const routes: Routes[] = [
   {
@@ -14,6 +15,32 @@ const routes: Routes[] = [
       title: (
         <Fragment>
           Meet <code>Charmy</code>
+        </Fragment>
+      ),
+      banner: banner
+    }
+  },
+  {
+    path: '/charmy/commands',
+    component: CharmyCommands,
+    header: {
+      tab: 'Charmy',
+      title: (
+        <Fragment>
+          <code>Charmy</code> Commands
+        </Fragment>
+      ),
+      banner: banner
+    }
+  },
+  {
+    path: '/charmy/commands/:url',
+    component: CharmyCommands,
+    header: {
+      tab: 'Charmy',
+      title: (
+        <Fragment>
+          <code>Charmy</code> Commands
         </Fragment>
       ),
       banner: banner

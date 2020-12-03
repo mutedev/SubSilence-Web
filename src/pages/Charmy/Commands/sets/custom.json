@@ -1,0 +1,12 @@
+{
+  "name": "Custom Command Manager Commands",
+  "url": "custom-commands-manager",
+  "desc":"These commands are strictly for Charmy admins.",
+  "commands": [
+    {
+      "url": "custom-command",
+      "name": ".command [create/delete/add/remove/list] [commandname] [value]",
+      "desc": "With this command you can create or delete custom commands and also add or remove values from the command. You can list all the values that are in the command by using the “list” argument."
+    }
+  ]
+}

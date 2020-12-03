@@ -1,0 +1,36 @@
+.Command {
+  display: inline-block;
+  color: #e25c5c;
+
+  &:nth-child(2) {
+    color: #9593dc;
+  }
+
+  &:nth-child(3) {
+    color: #ffa000;
+  }
+
+  &:nth-child(4) {
+    color: #3498db;
+  }
+
+  &:nth-child(5) {
+    color: #2ecc71;
+  }
+
+  &:nth-child(6) {
+    color: #fff6c0;
+  }
+
+  &-Card {
+    background-color: #0002;
+    border: 2px solid #0004;
+    padding: 25px;
+    margin-bottom: 50px;
+    border-radius: 13px;
+
+    .title {
+      text-transform: capitalize;
+    }
+  }
+}
