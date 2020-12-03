@@ -1,0 +1,37 @@
+{
+  "name": "SubSilence Commands",
+  "url": "subsilence-commands",
+  "desc": "These commands are personal for the SubSilence Discord server.",
+  "commands": [
+    {
+      "url": "create-party",
+      "name": ".party create [name] [max-size]",
+      "desc": "This will create a new party with the given name and size."
+    },
+    {
+      "url": "config-party",
+      "name": ".party config [name] [option] [value]",
+      "desc": "With this command, you can change several party values such as 'Game', 'MaxPlayers', 'Description', 'Image' and 'Joinable'"
+    },
+    {
+      "url": "disband-party",
+      "name": ".party disband [name]",
+      "desc": "This will delete the party. This command can only be executed by the owner of the party."
+    },
+    {
+      "url": "list-party",
+      "name": ".party list [name]",
+      "desc": "This will show all information about the given party."
+    },
+    {
+      "url": "create-party",
+      "name": ".party join [name]",
+      "desc": "This command makes you join the given party."
+    },
+    {
+      "url": "create-party",
+      "name": ".party leave [name]",
+      "desc": "This command makes you leave the given party."
+    }
+  ]
+}

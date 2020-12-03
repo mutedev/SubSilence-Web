@@ -1,0 +1,17 @@
+{
+  "name": "Bot-Admin Commands",
+  "url": "bot-admin-commands",
+  "desc":"These commands are strictly for Charmy admins.",
+  "commands": [
+    {
+      "url": "shutdown",
+      "name": ".shutdown",
+      "desc": "This will shut down Charmy, the bot will have to be restarted manually."
+    },
+    {
+      "url": "restart",
+      "name": ".restart",
+      "desc": "This command will restart Charmy, this will also load new commands and reload the configuration. This may take up to a few seconds."
+    }
+  ]
+}

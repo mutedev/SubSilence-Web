@@ -1,0 +1,22 @@
+{
+  "name": "Music Commands",
+  "url": "music-commands",
+  "desc": "These commands are strictly for Charmy admins.",
+  "commands": [
+    {
+      "url": "join",
+      "name": ".join",
+      "desc": "This will make Charmy join the current voice channel you're in."
+    },
+    {
+      "url": "play",
+      "name": ".play [path]",
+      "desc": "This will play the audio file at the given path. [!WARNING!]: This feature is only working with files saved to the Charmy Database. This will support urls in the future."
+    },
+    {
+      "url": "stop",
+      "name": ".stop",
+      "desc": "Disconnects Charmy from your voice channel."
+    }
+  ]
+}
