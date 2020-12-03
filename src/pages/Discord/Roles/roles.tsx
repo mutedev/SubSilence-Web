@@ -26,9 +26,29 @@ const roles: RoleCategory[] = [
     description: 'Roles for people from special places',
     roles: [
       {
-        name: '🎀 Server Booster 🎀',
-        description: 'For the people who are Nitro boosting the server',
-        color: '#f47fff'
+        name: "💜 Myu's Selected",
+        description: 'Tier 3 Subscriber (€25.00)',
+        color: '#ff26ea'
+      },
+      {
+        name: "💜 Myu's Favourites",
+        description: 'Tier 2 Subscriber (€10.00)',
+        color: '#9158e1'
+      },
+      {
+        name: "💜 Myu's Supporters",
+        description: 'Tier 1 Subscriber (€5.00)',
+        color: '#6960f2'
+      },
+      {
+        name: '💜 Twitch Subscriber',
+        description: 'This user is subscribed to Myu on Twitch',
+        color: '#6d3ad8'
+      },
+      {
+        name: '',
+        description: '',
+        color: '#fff'
       },
       {
         name: '🎀 Blameless Brats',
@@ -36,7 +56,7 @@ const roles: RoleCategory[] = [
         color: '#e91e63'
       },
       {
-        name: "💜 App's Haven",
+        name: "🧁 App's Haven",
         description: 'For people who come from the "App\'s Haven" server',
         color: '#71368a'
       },
@@ -159,6 +179,11 @@ const roles: RoleCategory[] = [
     description:
       'Custom roles you can receive from users, you can also request your own role',
     roles: [
+      {
+        name: '💟 Narcoleptic Succubus',
+        description: 'Sleepy lewdies',
+        color: '#c7058c'
+      },
       {
         name: '🌸  Flower',
         description: 'Fembois that like flowers',
