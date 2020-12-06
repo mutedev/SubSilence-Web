@@ -30,7 +30,7 @@ const staff: Staff = {
       discordName: 'Myu#0001',
       quote: 'Nyan~',
       img:
-        'https://cdn.discordapp.com/avatars/190486065512054786/5b9ccd60d35094b37684f9e888051c11.png?size=128',
+        'https://cdn.discordapp.com/avatars/190486065512054786/5b9ccd60d35094b37684f9e888051c11.png?size=1024',
       timezone: 'CET'
     },
     {
@@ -102,7 +102,7 @@ const staff: Staff = {
       discordName: 'LuximusHunter#2043',
       quote: 'Professional Potato',
       img:
-        'https://cdn.discordapp.com/avatars/306692821358739456/402d3f11a0533566ae7cc0b7ff93b760.png?size=128',
+        'https://cdn.discordapp.com/avatars/306692821358739456/402d3f11a0533566ae7cc0b7ff93b760.png?size=1024',
       timezone: 'CET'
     },
     {
