@@ -30,7 +30,7 @@ const staff: Staff = {
       discordName: 'Myu#0001',
       quote: 'Nyan~',
       img:
-        'https://cdn.discordapp.com/avatars/190486065512054786/aa6d0b7be6b7c2eb055588fd1073dd42.png?size=1024',
+        'https://cdn.discordapp.com/avatars/190486065512054786/5b9ccd60d35094b37684f9e888051c11.png?size=128',
       timezone: 'CET'
     },
     {
@@ -84,16 +84,7 @@ const staff: Staff = {
       discordName: 'Seelk#1337',
       quote: 'Totally not a femboy',
       img:
-        'https://cdn.discordapp.com/avatars/240986142940332033/d592b8bb24992892bae55798da9f6404.png?size=1024',
-      timezone: 'CET'
-    },
-    {
-      roles: [2],
-      name: 'Polly',
-      discordName: 'polly#2137',
-      quote: '-',
-      img:
-        'https://cdn.discordapp.com/avatars/157587601266704384/778b80e0b576d4d5fe1579ec7dc7a1c7.png?size=1024',
+        'https://cdn.discordapp.com/avatars/240986142940332033/4580f7fcaa7f8b4a4bbcf3eb848ab9cb.png?size=1024',
       timezone: 'CET'
     },
     {
@@ -102,16 +93,16 @@ const staff: Staff = {
       discordName: 'Atsi#6969',
       quote: '-',
       img:
-        'https://cdn.discordapp.com/avatars/351535435010539521/9fcbec4ae8e599bc61d6d06f8cbe5ea2.png?size=1024',
+        'https://cdn.discordapp.com/avatars/351535435010539521/a_173b8329731e87ff91e5cb8a4fadf301.gif?size=1024',
       timezone: 'Unknown'
     },
     {
       roles: [2, 3],
       name: 'LuximusHunter',
-      discordName: 'Hunter#2043',
+      discordName: 'LuximusHunter#2043',
       quote: 'Professional Potato',
       img:
-        'https://cdn.discordapp.com/avatars/306692821358739456/618fd4904163383039921385859446ae.png?size=1024',
+        'https://cdn.discordapp.com/avatars/306692821358739456/402d3f11a0533566ae7cc0b7ff93b760.png?size=128',
       timezone: 'CET'
     },
     {
