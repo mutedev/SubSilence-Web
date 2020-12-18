@@ -30,7 +30,7 @@ const staff: Staff = {
       discordName: 'Myu#0001',
       quote: 'Nyan~',
       img:
-        'https://cdn.discordapp.com/avatars/190486065512054786/5b9ccd60d35094b37684f9e888051c11.png?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/myu.png',
       timezone: 'CET'
     },
     {
@@ -39,7 +39,7 @@ const staff: Staff = {
       discordName: 'TimZB#6969',
       quote: 'Huts',
       img:
-        'https://cdn.discordapp.com/avatars/263364989216096276/33235a79b569a62254aee0f4dadf14b2.png?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/tim.png',
       timezone: 'CET'
     },
     {
@@ -48,7 +48,7 @@ const staff: Staff = {
       discordName: 'yoloyouri (aka Itsuki)#6711',
       quote: 'Traps are gay',
       img:
-        'https://cdn.discordapp.com/avatars/260002038924967937/a_9e2a28c98b17cbacbbc4ba148bc2abc6.gif?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/youri.gif',
       timezone: 'CET'
     },
     {
@@ -57,7 +57,7 @@ const staff: Staff = {
       discordName: 'App2099#0109',
       quote: 'Nyaa~',
       img:
-        'https://cdn.discordapp.com/avatars/344502606107770880/58e4541fc3c07b0e6c187a48b08c0d97.png?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/app.png',
       timezone: 'CET'
     },
     {
@@ -66,7 +66,7 @@ const staff: Staff = {
       discordName: 'Lightpug#1699',
       quote: 'They still haunt me',
       img:
-        'https://cdn.discordapp.com/avatars/409665404726673409/37d4befe1420635bd4659215651be1de.png?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/lightpug.png',
       timezone: 'CET'
     },
     {
@@ -75,7 +75,7 @@ const staff: Staff = {
       discordName: 'Torch#0001',
       quote: '-',
       img:
-        'https://cdn.discordapp.com/avatars/187775604706377729/5379539e3931294df61cec96ca7433a4.png?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/torch.png',
       timezone: 'EST'
     },
     {
@@ -84,7 +84,7 @@ const staff: Staff = {
       discordName: 'Seelk#1337',
       quote: 'Totally not a femboy',
       img:
-        'https://cdn.discordapp.com/avatars/240986142940332033/4580f7fcaa7f8b4a4bbcf3eb848ab9cb.png?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/seelk.png',
       timezone: 'CET'
     },
     {
@@ -93,7 +93,7 @@ const staff: Staff = {
       discordName: 'Atsi#6969',
       quote: '-',
       img:
-        'https://cdn.discordapp.com/avatars/351535435010539521/a_173b8329731e87ff91e5cb8a4fadf301.gif?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/atsi.gif',
       timezone: 'Unknown'
     },
     {
@@ -102,7 +102,7 @@ const staff: Staff = {
       discordName: 'LuximusHunter#2043',
       quote: 'Professional Potato',
       img:
-        'https://cdn.discordapp.com/avatars/306692821358739456/402d3f11a0533566ae7cc0b7ff93b760.png?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/hunter.png',
       timezone: 'CET'
     },
     {
@@ -111,7 +111,7 @@ const staff: Staff = {
       discordName: 'Swat#7165',
       quote: '.unmute .mute',
       img:
-        'https://cdn.discordapp.com/avatars/168801348685398016/223c8a617bc995961a0c95f98ea62616.png?size=1024',
+        'http://exia.subsilence.nl/subsilence/staff/swat.png',
       timezone: 'CET'
     }
   ]
