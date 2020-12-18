@@ -66,7 +66,7 @@ const staff: Staff = {
       discordName: 'Lightpug#1699',
       quote: 'They still haunt me',
       img:
-        'https://cdn.discordapp.com/avatars/409665404726673409/a_2689233f83b125232ffaefc8b1f8cc3c.gif?size=1024',
+        'https://cdn.discordapp.com/avatars/409665404726673409/37d4befe1420635bd4659215651be1de.png?size=1024',
       timezone: 'CET'
     },
     {
@@ -75,7 +75,7 @@ const staff: Staff = {
       discordName: 'Torch#0001',
       quote: '-',
       img:
-        'https://cdn.discordapp.com/avatars/187775604706377729/a_bbec26bac10443f890906471057b4986.gif?size=1024',
+        'https://cdn.discordapp.com/avatars/187775604706377729/5379539e3931294df61cec96ca7433a4.png?size=1024',
       timezone: 'EST'
     },
     {
