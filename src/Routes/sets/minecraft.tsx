@@ -4,6 +4,8 @@ import type { Routes } from '../interface'
 
 // Import pages
 import Minecraft from '../../pages/Minecraft/Main'
+import MinecraftRules from '../../pages/Minecraft/Rules'
+import MinecraftMap from '../../pages/Minecraft/Map'
 
 const routes: Routes[] = [
   {
@@ -14,6 +16,32 @@ const routes: Routes[] = [
       title: (
         <Fragment>
           SubSilence <code>Minecraft</code>
+        </Fragment>
+      ),
+      banner: banner
+    }
+  },
+  {
+    path: '/minecraft/rules',
+    component: MinecraftRules,
+    header: {
+      tab: 'Minecraft',
+      title: (
+        <Fragment>
+          Minecraft <code>Rules</code>
+        </Fragment>
+      ),
+      banner: banner
+    }
+  },
+  {
+    path: '/minecraft/map',
+    component: MinecraftMap,
+    header: {
+      tab: 'Minecraft',
+      title: (
+        <Fragment>
+          Minecraft <code>Map</code>
         </Fragment>
       ),
       banner: banner
