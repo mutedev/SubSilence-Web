@@ -7,20 +7,22 @@ export default (props: Props) => {
   const [height, setHeight] = useState('')
 
   const setDimensions = () => {
-    const e = document.querySelector('.FlexContainer') as HTMLElement
+    setTimeout(() => {
+      const e = document.querySelector('.FlexContainer') as HTMLElement
 
-    const h = e?.parentElement?.offsetHeight + 'px'
+      const h = e?.parentElement?.offsetHeight + 'px'
 
-    setHeight(h)
+      setHeight(h)
+    }, 1000)
   }
 
   useEffect(() => {
     setDimensions()
 
-    window.addEventListener('resize', setDimensions)
+    document.body.addEventListener('resize', setDimensions)
 
     return () => {
-      window.removeEventListener('resize', setDimensions)
+      document.body.removeEventListener('resize', setDimensions)
     }
   })
 
