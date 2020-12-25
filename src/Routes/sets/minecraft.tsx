@@ -6,6 +6,7 @@ import type { Routes } from '../interface'
 import Minecraft from '../../pages/Minecraft/Main'
 import MinecraftRules from '../../pages/Minecraft/Rules'
 import MinecraftMap from '../../pages/Minecraft/Map'
+import MinecraftClans from '../../pages/Minecraft/Clans'
 
 const routes: Routes[] = [
   {
@@ -25,7 +26,7 @@ const routes: Routes[] = [
     path: '/minecraft/rules',
     component: MinecraftRules,
     header: {
-      tab: 'Minecraft',
+      tab: 'Minecraft Rules',
       title: (
         <Fragment>
           Minecraft <code>Rules</code>
@@ -38,10 +39,23 @@ const routes: Routes[] = [
     path: '/minecraft/map',
     component: MinecraftMap,
     header: {
-      tab: 'Minecraft',
+      tab: 'Minecraft Map',
       title: (
         <Fragment>
           Minecraft <code>Map</code>
+        </Fragment>
+      ),
+      banner: banner
+    }
+  },
+  {
+    path: '/minecraft/clans',
+    component: MinecraftClans,
+    header: {
+      tab: 'Minecraft Clans',
+      title: (
+        <Fragment>
+          Server <code>Clans</code>
         </Fragment>
       ),
       banner: banner

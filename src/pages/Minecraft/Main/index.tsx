@@ -3,7 +3,6 @@ import CenterText from '../../../components/CenterText'
 import Button from '../../../components/Button'
 import MinecraftCard from '../../../components/MinecraftCard'
 import TextSection from '../../../components/TextSection'
-import './style.scss'
 
 export default () => {
   return (
