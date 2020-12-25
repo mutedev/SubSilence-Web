@@ -1,5 +1,5 @@
+// Import banner image for pages
 import banner from '../../assets/banner.png'
-import type { Routes } from '../interface'
 
 // Import pages
 import Home from '../../pages/Minecraft/Main'
@@ -7,7 +7,8 @@ import Rules from '../../pages/Minecraft/Rules'
 import MCMap from '../../pages/Minecraft/Map'
 import Clans from '../../pages/Minecraft/Clans'
 
-const routes: Routes[] = [
+// Export all routes
+export default [
   {
     path: '/minecraft',
     component: Home,
@@ -45,5 +46,3 @@ const routes: Routes[] = [
     }
   }
 ]
-
-export default routes

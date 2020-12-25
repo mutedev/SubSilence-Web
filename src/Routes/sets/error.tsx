@@ -1,11 +1,12 @@
+// Import banner image for pages
 import banner from '../../assets/banner.png'
-import type { Routes } from '../interface'
 
 // Import pages
 import Error403 from '../../pages/Error/403'
 import Error404 from '../../pages/Error/404'
 
-const routes: Routes[] = [
+// Export all routes
+export default [
   {
     path: '/error/403',
     component: Error403,
@@ -25,5 +26,3 @@ const routes: Routes[] = [
     }
   }
 ]
-
-export default routes

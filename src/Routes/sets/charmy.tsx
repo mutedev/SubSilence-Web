@@ -1,11 +1,12 @@
+// Import banner image for pages
 import banner from '../../assets/banner.png'
-import type { Routes } from '../interface'
 
 // Import pages
 import Home from '../../pages/Charmy/Main'
 import Commands from '../../pages/Charmy/Commands'
 
-const routes: Routes[] = [
+// Export all routes
+export default [
   {
     path: '/charmy',
     component: Home,
@@ -34,5 +35,3 @@ const routes: Routes[] = [
     }
   }
 ]
-
-export default routes
