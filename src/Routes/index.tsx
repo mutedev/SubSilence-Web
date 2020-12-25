@@ -6,28 +6,27 @@ import {
   Switch
 } from 'react-router-dom'
 import Layout from '../components/Layout'
-import type { Routes, ShortRoutes } from './interface'
 
-import normalRoutes from './main/normal'
-import shortRoutes from './main/short'
+import fulls from './full'
+import shorts from './short'
 
 export default () => (
   <Router>
     <Switch>
-      {shortRoutes.routes.map((shortRoute: ShortRoutes, index: number) => (
+      {shorts.routes.map((short, index) => (
         <Route
           key={index}
           exact
-          path={shortRoutes.prefix + shortRoute.from}
-          render={() => <Redirect to={shortRoute.to} />}
+          path={shorts.prefix + short.from}
+          render={() => <Redirect to={short.to} />}
         />
       ))}
-      {normalRoutes.map((normalRoute: Routes, index: number) => (
+      {fulls.map((full, index) => (
         <Route
           key={index}
           exact
-          path={normalRoute.path}
-          render={() => <Layout route={normalRoute} />}
+          path={full.path}
+          render={() => <Layout route={full} />}
         />
       ))}
     </Switch>

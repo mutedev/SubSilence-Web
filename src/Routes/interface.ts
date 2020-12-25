@@ -8,8 +8,3 @@ export interface Routes {
     banner: string
   }
 }
-
-export interface ShortRoutes {
-  from: string
-  to: string
-}
