@@ -5,14 +5,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      
-      # - name: Use Node.js ${{ matrix.node_version }}
-      #   uses: actions/setup-node@v1
-      #   with:
-      #   node-version: ${{ matrix.node_version }}
 
       - name: Install dependencies
         run: npm install
 
       - name: Check file linting
         run: npm run lint
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check buildability
+        run: npm run build

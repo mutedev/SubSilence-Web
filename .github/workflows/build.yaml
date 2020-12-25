@@ -1,8 +1,0 @@
-name: Check Buildability
-on: [pull_request]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - run: npm install
-      - run: npm run build
