@@ -1,5 +1,5 @@
 name: Check Buildability
-on: [push, pull_request]
+on: [pull_request]
 jobs:
   check-build:
     runs-on: ubuntu-latest
