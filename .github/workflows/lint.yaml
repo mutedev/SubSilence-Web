@@ -1,15 +1,8 @@
-name: check-linting
+name: Check Linting
 on: [push, pull_request]
 jobs:
-  install-dependencies:
-    name: Install Dependencies
+  check-build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo Installing Dependencies
       - run: npm install
-  check-linting:
-    needs: install-dependencies
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo Checking Linting
       - run: npm run lint

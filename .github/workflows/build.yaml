@@ -1,15 +1,8 @@
-name: check-buildability
+name: Check Buildability
 on: [push, pull_request]
 jobs:
-  install-dependencies:
-    name: Install Dependencies
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo Installing Dependencies
-      - run: npm install
   check-build:
-    needs: install-dependencies
     runs-on: ubuntu-latest
     steps:
-      - run: echo Checking Buildability
+      - run: npm install
       - run: npm run build
