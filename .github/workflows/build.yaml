@@ -1,7 +1,7 @@
 name: Check Buildability
 on: [pull_request]
 jobs:
-  check-build:
+  build:
     runs-on: ubuntu-latest
     steps:
       - run: npm install

@@ -1,8 +1,17 @@
 name: Check Linting
 on: [pull_request]
 jobs:
-  check-build:
+  lint:
     runs-on: ubuntu-latest
     steps:
-      - run: npm install
-      - run: npm run lint
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+        node-version: ${{ matrix.node_version }}
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check file linting
+        run: npm run lint
