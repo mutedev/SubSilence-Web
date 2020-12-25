@@ -1,0 +1,23 @@
+name: Main checks
+on: [pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check file linting
+        run: npm run lint
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check buildability
+        run: npm run build
