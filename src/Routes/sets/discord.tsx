@@ -1,91 +1,66 @@
-import React, { Fragment } from 'react'
 import banner from '../../assets/banner.png'
 import type { Routes } from '../interface'
 
 // Import pages
-import Discord from '../../pages/Discord/Main'
-import DiscordRules from '../../pages/Discord/Rules'
-import DiscordStaff from '../../pages/Discord/Staff'
-import DiscordPartners from '../../pages/Discord/Partners'
-import DiscordRoles from '../../pages/Discord/Roles'
-import DiscordVerification from '../../pages/Discord/Verification'
+import Home from '../../pages/Discord/Main'
+import Rules from '../../pages/Discord/Rules'
+import Staff from '../../pages/Discord/Staff'
+import Partners from '../../pages/Discord/Partners'
+import Roles from '../../pages/Discord/Roles'
+import Verification from '../../pages/Discord/Verification'
 
 const routes: Routes[] = [
   {
     path: '/discord',
-    component: Discord,
+    component: Home,
     header: {
       tab: 'Discord',
-      title: (
-        <Fragment>
-          SubSilence <code>Discord</code>
-        </Fragment>
-      ),
+      title: 'SubSilence [Discord]',
       banner: banner
     }
   },
   {
     path: '/discord/rules',
-    component: DiscordRules,
+    component: Rules,
     header: {
       tab: 'Discord Rules',
-      title: (
-        <Fragment>
-          Discord <code>Rules</code>
-        </Fragment>
-      ),
+      title: 'Discord [Rules]',
       banner: banner
     }
   },
   {
     path: '/discord/staff',
-    component: DiscordStaff,
+    component: Staff,
     header: {
       tab: 'Discord Staff',
-      title: (
-        <Fragment>
-          Discord <code>Staff</code>
-        </Fragment>
-      ),
+      title: 'Discord [Staff]',
       banner: banner
     }
   },
   {
     path: '/discord/partners',
-    component: DiscordPartners,
+    component: Partners,
     header: {
       tab: 'Discord Partners',
-      title: (
-        <Fragment>
-          Discord <code>Partners</code>
-        </Fragment>
-      ),
+      title: 'Discord [Partners]',
       banner: banner
     }
   },
   {
     path: '/discord/roles',
-    component: DiscordRoles,
+    component: Roles,
     header: {
       tab: 'Discord Roles',
-      title: (
-        <Fragment>
-          Discord <code>Roles</code>
-        </Fragment>
-      ),
+      title: 'Discord [Roles]',
       banner: banner
     }
   },
   {
     path: '/discord/verify',
-    component: DiscordVerification,
+    component: Verification,
     header: {
-      tab: 'Discord Verify',
-      title: (
-        <Fragment>
-          Discord <code>Verification</code>
-        </Fragment>
-      ),
+      tab: 'Discord Verification',
+      title: 'Discord [Verification]',
       banner: banner
     }
   }

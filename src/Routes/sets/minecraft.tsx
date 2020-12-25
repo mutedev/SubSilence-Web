@@ -1,63 +1,46 @@
-import React, { Fragment } from 'react'
 import banner from '../../assets/banner.png'
 import type { Routes } from '../interface'
 
 // Import pages
-import Minecraft from '../../pages/Minecraft/Main'
-import MinecraftRules from '../../pages/Minecraft/Rules'
-import MinecraftMap from '../../pages/Minecraft/Map'
-import MinecraftClans from '../../pages/Minecraft/Clans'
+import Home from '../../pages/Minecraft/Main'
+import Rules from '../../pages/Minecraft/Rules'
+import MCMap from '../../pages/Minecraft/Map'
+import Clans from '../../pages/Minecraft/Clans'
 
 const routes: Routes[] = [
   {
     path: '/minecraft',
-    component: Minecraft,
+    component: Home,
     header: {
       tab: 'Minecraft',
-      title: (
-        <Fragment>
-          SubSilence <code>Minecraft</code>
-        </Fragment>
-      ),
+      title: 'SubSilence [Minecraft]',
       banner: banner
     }
   },
   {
     path: '/minecraft/rules',
-    component: MinecraftRules,
+    component: Rules,
     header: {
       tab: 'Minecraft Rules',
-      title: (
-        <Fragment>
-          Minecraft <code>Rules</code>
-        </Fragment>
-      ),
+      title: 'Minecraft [Rules]',
       banner: banner
     }
   },
   {
     path: '/minecraft/map',
-    component: MinecraftMap,
+    component: MCMap,
     header: {
       tab: 'Minecraft Map',
-      title: (
-        <Fragment>
-          Minecraft <code>Map</code>
-        </Fragment>
-      ),
+      title: 'Minecraft [Map]',
       banner: banner
     }
   },
   {
     path: '/minecraft/clans',
-    component: MinecraftClans,
+    component: Clans,
     header: {
       tab: 'Minecraft Clans',
-      title: (
-        <Fragment>
-          Server <code>Clans</code>
-        </Fragment>
-      ),
+      title: 'Server [Clans]',
       banner: banner
     }
   }

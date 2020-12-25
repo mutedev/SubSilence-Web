@@ -1,48 +1,35 @@
-import React, { Fragment } from 'react'
 import banner from '../../assets/banner.png'
 import type { Routes } from '../interface'
 
 // Import pages
-import Charmy from '../../pages/Charmy/Main'
-import CharmyCommands from '../../pages/Charmy/Commands'
+import Home from '../../pages/Charmy/Main'
+import Commands from '../../pages/Charmy/Commands'
 
 const routes: Routes[] = [
   {
     path: '/charmy',
-    component: Charmy,
+    component: Home,
     header: {
       tab: 'Charmy',
-      title: (
-        <Fragment>
-          Meet <code>Charmy</code>
-        </Fragment>
-      ),
+      title: 'Meet [Charmy]',
       banner: banner
     }
   },
   {
     path: '/charmy/commands',
-    component: CharmyCommands,
+    component: Commands,
     header: {
       tab: 'Charmy',
-      title: (
-        <Fragment>
-          <code>Charmy</code> Commands
-        </Fragment>
-      ),
+      title: '[Charmy] Commands',
       banner: banner
     }
   },
   {
     path: '/charmy/commands/:url',
-    component: CharmyCommands,
+    component: Commands,
     header: {
       tab: 'Charmy',
-      title: (
-        <Fragment>
-          <code>Charmy</code> Commands
-        </Fragment>
-      ),
+      title: '[Charmy] Commands',
       banner: banner
     }
   }

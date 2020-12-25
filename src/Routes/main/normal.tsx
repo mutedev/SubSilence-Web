@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react'
 import banner from '../../assets/banner.png'
 import type { Routes } from '../interface'
 
@@ -10,10 +9,7 @@ import About from '../../pages/About'
 import discord from '../sets/discord'
 import charmy from '../sets/charmy'
 import minecraft from '../sets/minecraft'
-
-// Import error pages
-import Error404 from '../../pages/Error/404'
-import Error403 from '../../pages/Error/403'
+import error from '../sets/error'
 
 let routes: Routes[] = [
   // Main routes
@@ -22,11 +18,7 @@ let routes: Routes[] = [
     component: Home,
     header: {
       tab: 'Home',
-      title: (
-        <Fragment>
-          Welcome to <code>SubSilence</code>
-        </Fragment>
-      ),
+      title: 'Welcome to [SubSilence]',
       banner: banner
     }
   },
@@ -35,11 +27,7 @@ let routes: Routes[] = [
     component: About,
     header: {
       tab: 'About',
-      title: (
-        <Fragment>
-          About <code>SubSilence</code>
-        </Fragment>
-      ),
+      title: 'About [SubSilence]',
       banner: banner
     }
   },
@@ -48,26 +36,7 @@ let routes: Routes[] = [
   ...discord,
   ...charmy,
   ...minecraft,
-
-  // Errors
-  {
-    path: '/error/403',
-    component: Error403,
-    header: {
-      tab: '403',
-      title: <code>403</code>,
-      banner: banner
-    }
-  },
-  {
-    path: '*',
-    component: Error404,
-    header: {
-      tab: '404',
-      title: <code>404</code>,
-      banner: banner
-    }
-  }
+  ...error
 ]
 
 export default routes
