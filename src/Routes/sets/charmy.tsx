@@ -19,7 +19,7 @@ const routes: Routes[] = [
     path: '/charmy/commands',
     component: Commands,
     header: {
-      tab: 'Charmy',
+      tab: 'Charmy Commands',
       title: '[Charmy] Commands',
       banner: banner
     }
@@ -28,7 +28,7 @@ const routes: Routes[] = [
     path: '/charmy/commands/:url',
     component: Commands,
     header: {
-      tab: 'Charmy',
+      tab: 'Charmy Commands',
       title: '[Charmy] Commands',
       banner: banner
     }
