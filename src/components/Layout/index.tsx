@@ -19,7 +19,7 @@ export default ({ route }: { route: Routes }) => {
       </header>
       <section id='Content'>
         <header id='Content-Header'>{route.header.title}</header>
-        <section>
+        <section id='Content-Section'>
           <route.component />
         </section>
       </section>

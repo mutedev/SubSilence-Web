@@ -16,4 +16,27 @@
     border-radius: 8px;
     border: 2px solid #0004;
   }
+
+  &.Fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    border-radius: 0;
+    background-color: #0007;
+
+    iframe {
+      $size: 90%;
+      position: fixed;
+      top: (100% - $size)/ 2;
+      left: (100% - $size)/ 2;
+      right: (100% - $size)/ 2;
+      bottom: (100% - $size)/ 2;
+      width: $size;
+      height: $size;
+      border-color: #111;
+    }
+  }
 }
