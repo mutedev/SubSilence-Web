@@ -1,9 +1,1 @@
-export default [
-  'Cutie',
-  'Exiles',
-  'Flower',
-  'Africa',
-  'Blind',
-  'Monnen',
-  'yes',
-]
+export default ['Cutie', 'Exiles', 'Flower', 'Africa', 'Blind', 'Monnen', 'yes']
